@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Catalogue</h1>
+  
+<ul>
+  {% for x in book_list %}
+    <li>{{ x.book_title }} {{ x.book_publisher }}</li>
+  {% endfor %}
+</ul>
+
+</body>
+</html>
